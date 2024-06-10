@@ -2,11 +2,13 @@ O projeto
 
 Na minha tela aparece um site, onde consta um texto com a nossa missão e, abaixo dele, há dois botões. O botão da esquerda está escrito "Isso é assustador!" e o da direita está escrito "Isso é maravilhoso!".
 
-    Você decide o futuro da IA
+Você decide o futuro da IA
 
-    Assim que saiu da escola, você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter. Ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?
+Assim que saiu da escola, você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter. Ele também gera imagens e áudios hiper-realistas. 
+Qual o primeiro pensamento?
 
-    |Isso é assustador!| |Isso é maravilhoso"|
+|Isso é assustador!| |Isso é maravilhoso"|
+
  brainstorm em três etapas
 
 Começando a tempestade de ideias
@@ -22,7 +24,7 @@ pasta MISSAO-IA, com os arquivos index.html e style.css
 Ao digitar html:5 e teclar "Enter", o seguinte script deve aparecer:
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">A terceira etapa é formada por perguntas. Vamos levan
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +35,8 @@ Ao digitar html:5 e teclar "Enter", o seguinte script deve aparecer:
 </body>
 </html>
 
-Vamos precisar alterar algumas coisas nesse script, como o idioma, na linha 2, que mudaremos de en para pt-br. Ou seja, de Inglês para Português Brasileiro. Além disso, precisamos adicionar o arquivo style.css após a tag meta. Para isso, basta colocarmos link:css e teclar "Enter". Ao fazer isso, o arquivo style.css será linkado.
+O idioma, na linha 2, mudaremos de en para pt-br. De Inglês para Português Brasileiro. Precisamos adicionar o arquivo style.css após a tag meta. Basta colocarmos link:css e teclar "Enter". 
+arquivo style.css será linkado.
 
 Também precisamos criar o título da nossa página, aquele que estava no Figma: "Você decide o futuro da IA". O colocaremos dentro da tag title.
 
@@ -93,3 +96,7 @@ Agora, criaremos uma div para os botões, cuja classe será caixa-alternativas. 
     </div>
 </body>
 </html>
+
+antes da tag de fechamento </body>
+vamos digitar script:src
+definir o atributo src como o nome do documento script.js
