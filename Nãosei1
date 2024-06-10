@@ -1,0 +1,95 @@
+O projeto
+
+Na minha tela aparece um site, onde consta um texto com a nossa missão e, abaixo dele, há dois botões. O botão da esquerda está escrito "Isso é assustador!" e o da direita está escrito "Isso é maravilhoso!".
+
+    Você decide o futuro da IA
+
+    Assim que saiu da escola, você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter. Ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?
+
+    |Isso é assustador!| |Isso é maravilhoso"|
+ brainstorm em três etapas
+
+Começando a tempestade de ideias
+
+A primeira etapa será para pensarmos em todos os assuntos relacionados a este tema que a pessoa docente apresentou. Você pode pensar em qualquer coisa, não precisa limitar a sua criatividade. Quando esgotar toda a sua criatividade relacionada a este assunto, votaremos nos assuntos mais interessantes. Você precisa selecionar, entre três a cinco assuntos.
+
+Na segunda etapa, vamos passar os assuntos mais votados, ou seja, os que mais gostamos, para a nossa segunda folha ou para a nossa segunda página da nossa ferramenta digital. Começaremos a pensar em mais informações relacionadas àqueles assuntos que gostamos. Ao final, votaremos novamente nos temas que mais achamos interessantes e relevantes para a nossa missão, escolhendo um ou dois temas apenas, para conseguirmos levar para a nossa terceira etapa.
+
+A terceira etapa é formada por perguntas. Vamos levantar as perguntas que conseguirmos imaginar relacionadas ao assunto que mais gostamos. Ao final dessa etapa, escolheremos o assunto ou tema que será a narrativa-guia da nossa missão. 
+
+pasta MISSAO-IA, com os arquivos index.html e style.css
+
+Ao digitar html:5 e teclar "Enter", o seguinte script deve aparecer:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+Vamos precisar alterar algumas coisas nesse script, como o idioma, na linha 2, que mudaremos de en para pt-br. Ou seja, de Inglês para Português Brasileiro. Além disso, precisamos adicionar o arquivo style.css após a tag meta. Para isso, basta colocarmos link:css e teclar "Enter". Ao fazer isso, o arquivo style.css será linkado.
+
+Também precisamos criar o título da nossa página, aquele que estava no Figma: "Você decide o futuro da IA". O colocaremos dentro da tag title.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+
+</body>
+</html>
+
+Agora, dentro de body, vamos começar a colocar as caixas que vimos no nosso protótipo. Para criar as caixas, que podemos chamar de container, em inglês, utilizamos a tag div. Nesta div, usaremos uma classe chamada caixa-principal. Dentro da caixa principal, temos o nosso título h1, que possui o mesmo texto do título da página.
+
+    Lembre-se que podemos usar um atalho para adicionar uma tag já com uma classe. Para isso, basta utilizarmos a tag seguida de um ponto e o nome da classe, e teclar "Enter". Ex.: div.caixa-principal ficará <div class="caixa-principal"></div>.
+
+Em seguida, precisamos criar outra div, para o texto com a pergunta. Para essa div, criaremos uma classe chamada caixa-perguntas.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        <div class="caixa-perguntas"></div>
+    </div>
+</body>
+</html>
+
+Agora, criaremos uma div para os botões, cuja classe será caixa-alternativas. Mas você deve lembrar que no nosso resultado temos algo diferente, por isso, vamos adicionar mais uma div com a classe caixa-resultado. Dentro da nossa caixa de resultado, tínhamos apenas um texto, que pode ser colocado na tag p, de parágrafo, com a classe texto-resultado.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Você decide o futuro da IA</title>
+</head>
+<body>
+    <div class="caixa-principal">
+        <h1>Você decide o futuro da IA</h1>
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado"></div>
+            <p class="texto-resultado"></p>
+        </div>
+    </div>
+</body>
+</html>
